@@ -1,0 +1,731 @@
+apiVersion: v1
+entries:
+  389ds:
+  - apiVersion: v2
+    appVersion: fedora-32
+    created: "2023-02-16T07:15:12.701808282Z"
+    description: 389 Directory Server
+    digest: 6924d02cca2b568eb95317be87378c90a40d051743dde9933f8b143eb8396f60
+    name: 389ds
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/389ds-0.1.1.tgz
+    version: 0.1.1
+  config-model-aether:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-02-16T07:15:12.702389908Z"
+    description: Aether config model
+    digest: c1a755bc9f803568700bdf29986516abaaa1cfef9ed76d9c5778fceaf94368ee
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-aether
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-aether-2.1.1.tgz
+    version: 2.1.1
+  config-model-devicesim:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-16T07:15:12.705254308Z"
+    description: Devicesim model
+    digest: bd9c5280fa27660cb34b975e2ae78dd4b34aa39dadb791cf988ebd77c78c27d8
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-devicesim
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-devicesim-1.0.5.tgz
+    version: 1.0.5
+  config-model-devicesim-1-0-0:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-16T07:15:12.703776711Z"
+    description: Devicesim model
+    digest: e3d1e334d3bc48d16d736386a15e12977f7f4c7c6b3ff0ae65fbec8b33b1cb28
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-devicesim-1-0-0
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-devicesim-1-0-0-1.0.6.tgz
+    version: 1.0.6
+  config-model-ietf:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-16T07:15:12.706209187Z"
+    description: IETF config model
+    digest: 645e51054274bc6da753c5ee9e623fdd505c6a993355e5eff3a6e04a92a0c02f
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-ietf
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-ietf-1.0.1.tgz
+    version: 1.0.1
+  config-model-openconfig:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-16T07:15:12.708089162Z"
+    dependencies:
+    - name: config-model-ietf
+      repository: https://charts.onosproject.org
+      version: 1.0.1
+    description: OpenConfig model
+    digest: d08deaecaad4fc03c096be77cb72fd0aecdb72d01a0f91d557942239cc2ca910
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-openconfig
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-openconfig-1.0.1.tgz
+    version: 1.0.1
+  config-model-rbac:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-16T07:15:12.708501777Z"
+    description: RBAC config model
+    digest: 262caef859f6fa2140d3a297833aff8c81c7c89db5286ae9630c5e5466df8a73
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-rbac
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-rbac-1.0.3.tgz
+    version: 1.0.3
+  config-model-stratum:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-16T07:15:12.715974317Z"
+    description: Stratum model
+    digest: 29ac6bf58ef1c76dd6343eb4507d728dcb5c97e7a83e2d87f9353c81f1624ff6
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-stratum
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-stratum-1.0.3.tgz
+    version: 1.0.3
+  config-model-stratum-1-0-0:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-16T07:15:12.711555678Z"
+    description: Stratum model
+    digest: abb9397298facdedfbc411c0b0d1108efcea002ca89b095b382f1ade6369a015
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-stratum-1-0-0
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-stratum-1-0-0-1.0.8.tgz
+    version: 1.0.8
+  config-model-testdevice:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-02-16T07:15:12.716720601Z"
+    description: TestDevice model
+    digest: aad7a11cef60653b24fc7d454eb8226ffcf0fefd16d557d35d05ce1ec742c605
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-testdevice
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-testdevice-2.0.4.tgz
+    version: 2.0.4
+  config-model-testdevice-1-0-0:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-16T07:15:12.716217992Z"
+    description: TestDevice model
+    digest: 6c22a317db63e440a1d140803b6ebe7b3091450fed6b1ffa35593d7c2c616d45
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-testdevice-1-0-0
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-testdevice-1-0-0-1.0.6.tgz
+    version: 1.0.6
+  config-model-testdevice-2-0-0:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2023-02-16T07:15:12.71649059Z"
+    description: TestDevice model
+    digest: eddb60801442dfef0cfd907fbe43534621c81c07a22dc5a541f8670237efb16b
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - config
+    kubeVersion: '>=1.18.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: config-model-testdevice-2-0-0
+    urls:
+    - https://github.com/wafi981/onos.git/docs/config-model-testdevice-2-0-0-2.0.5.tgz
+    version: 2.0.5
+  device-provisioner:
+  - apiVersion: v2
+    appVersion: v1.2.11
+    created: "2023-02-16T07:15:12.717444458Z"
+    description: ONOS Device P4 pipeline and chassis provisioning service
+    digest: 79871fbbe3d28c840be226deb633600dc019ba1eee80f4a3a16bb4445e6fc96f
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: device-provisioner
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/device-provisioner-1.2.14.tgz
+    version: 1.2.14
+  device-simulator:
+  - apiVersion: v2
+    appVersion: v0.6.3
+    created: "2023-02-16T07:15:12.717769258Z"
+    description: ONOS Config Device Simulator
+    digest: d59530202e3422bcc90903ff83db980227f1de0ef0ad86e214c72a4e679dc5ae
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: device-simulator
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/device-simulator-0.0.7.tgz
+    version: 0.0.7
+  dex-ldap-umbrella:
+  - apiVersion: v2
+    appVersion: v0.0.0
+    created: "2023-02-16T07:15:12.720204078Z"
+    dependencies:
+    - name: openldap
+      repository: https://charts.helm.sh/stable
+      version: 1.2.7
+    - name: dex
+      repository: https://charts.dexidp.io
+      version: 0.5.0
+    - name: phpldapadmin
+      repository: https://cetic.github.io/helm-charts
+      version: 0.1.4
+    description: Umbrella chart to deploy Dex, OpenLDAP & phpLDAPAdmin
+    digest: d8bf1b350de4a325ce3ffacc164747fb9c17af02c727afdaa270c02951ce4c49
+    home: https://onosproject.org
+    keywords:
+    - ldap
+    - dex
+    - phpLDAPAdmin
+    - onos
+    kubeVersion: '>=1.15.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: dex-ldap-umbrella
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/dex-ldap-umbrella-0.2.0.tgz
+    version: 0.2.0
+  discovery-agent:
+  - apiVersion: v2
+    appVersion: v1.1.5
+    created: "2023-02-16T07:15:12.720463363Z"
+    description: Discovery Local Agent
+    digest: d7877334fe1e380af4765cb6fde68ca69f84f79b710e66a804caf6069984ed77
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: discovery-agent
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/discovery-agent-1.1.6.tgz
+    version: 1.1.6
+  fabric-sim:
+  - apiVersion: v2
+    appVersion: v1.0.4
+    created: "2023-02-16T07:15:12.720913498Z"
+    description: ONOS Fabric Simulator service
+    digest: aa05a5d40b01d04b04270ad49a8f77b6f032cce69923a8cd54f4841d156a5c1e
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: fabric-sim
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/fabric-sim-1.0.7.tgz
+    version: 1.0.7
+  fabric-underlay:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2023-02-16T07:15:12.721522091Z"
+    description: A Helm chart for Kubernetes
+    digest: 0a09f028dab469768db05bcabd77e959c4ec4355d206ec6ea8faf4e06b81fb59
+    name: fabric-underlay
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/fabric-underlay-0.1.0.tgz
+    version: 0.1.0
+  keycloak-389-umbrella:
+  - apiVersion: v2
+    appVersion: v0.0.0
+    created: "2023-02-16T07:15:12.72935714Z"
+    dependencies:
+    - name: 389ds
+      repository: file://../389ds
+      version: 0.1.1
+    - name: keycloak
+      repository: https://charts.bitnami.com/bitnami
+      version: 5.0.7
+    - name: phpldapadmin
+      repository: https://cetic.github.io/helm-charts
+      version: 0.1.4
+    description: Umbrella chart to deploy Keycloak, 389ds & phpLDAPAdmin
+    digest: d87914f3c3c5aba51d19045a1a566a62b725588daead8f001ebda3be9290c009
+    home: https://onosproject.org
+    keywords:
+    - ldap
+    - keycloak
+    - "389"
+    - onos
+    kubeVersion: '>=1.15.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: keycloak-389-umbrella
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/keycloak-389-umbrella-0.1.5.tgz
+    version: 0.1.5
+  link-local-agent:
+  - apiVersion: v2
+    appVersion: v1.1.2
+    created: "2023-02-16T07:15:12.72962564Z"
+    description: Link Local Agent
+    digest: a8ca5a312643c7f62c3b5e671396a1a49d8991661e6b01fdf9d5836c820e6631
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: link-local-agent
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/link-local-agent-1.1.2.tgz
+    version: 1.1.2
+  onos-classic:
+  - apiVersion: v1
+    appVersion: 2.5.7-rc1
+    created: "2023-02-16T07:15:12.730583448Z"
+    dependencies:
+    - name: atomix
+      repository: https://charts.atomix.io
+      version: 0.1.9
+    description: ONOS cluster
+    digest: 24c210476b1e1a4238038dfddbb0f19303b0659ca2466b58ced5f6cf04ed3307
+    home: http://onosproject.org
+    icon: https://guide.opencord.org/logos/onos.svg
+    keywords:
+    - onos
+    - sdn
+    - networking
+    kubeVersion: '>=1.10.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: onos-classic
+    urls:
+    - https://github.com/wafi981/onos.git/docs/onos-classic-0.1.31.tgz
+    version: 0.1.31
+  onos-cli:
+  - apiVersion: v2
+    appVersion: v0.9.35
+    created: "2023-02-16T07:15:12.730949622Z"
+    description: ONOS Command Line Interface
+    digest: 4c0298215a353d4f0bdb85c3508ccb47ceb008e4477fce404af715a77e8ed796
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: onos-cli
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/onos-cli-1.3.15.tgz
+    version: 1.3.15
+  onos-config:
+  - apiVersion: v2
+    appVersion: v1.0.2
+    created: "2023-02-16T07:15:12.73180215Z"
+    description: ONOS Config Manager
+    digest: 4025edd336948a9ed68985b6817276b56d48b90742dd1e8d6c4fd6a4aa8edcb9
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: onos-config
+    urls:
+    - https://github.com/wafi981/onos.git/docs/onos-config-1.8.9.tgz
+    version: 1.8.9
+  onos-gui:
+  - apiVersion: v2
+    appVersion: v0.7.2
+    created: "2023-02-16T07:15:12.732657947Z"
+    description: ONOS Graphical User Interface
+    digest: 0159d8d5923769279d89e60534208d9d0d57f68302fc60b7a752b44c8c3578e9
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.15.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: onos-gui
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/onos-gui-1.0.9.tgz
+    version: 1.0.9
+  onos-operator:
+  - apiVersion: v2
+    appVersion: v0.5.2
+    created: "2023-02-16T07:15:12.733326538Z"
+    description: µONOS Operator
+    digest: ef43795bf40b1e8c6b12acd094be3650378e2ac78a4b4bd0f6b95af40f453da0
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: onos-operator
+    urls:
+    - https://github.com/wafi981/onos.git/docs/onos-operator-0.5.6.tgz
+    version: 0.5.6
+  onos-topo:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2023-02-16T07:15:12.733983454Z"
+    description: ONOS Topology service
+    digest: 9613ca05d2747f6be8c19ceaba0a801cfcec58c0c0aec92f676d421974fa83a8
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: onos-topo
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/onos-topo-1.5.0.tgz
+    version: 1.5.0
+  onos-tost:
+  - apiVersion: v1
+    appVersion: stable-2020-12-15
+    created: "2023-02-16T07:15:12.735941331Z"
+    dependencies:
+    - name: onos-classic
+      repository: https://charts.onosproject.org
+      version: 0.1.23
+    description: ONOS helm chart for TOST
+    digest: 6cfe03b0d5e6949526707989bd2e1ee6530947bdf8838919310d2aa4ad7e0150
+    home: http://onosproject.org
+    icon: https://guide.opencord.org/logos/onos.svg
+    keywords:
+    - onos
+    - sdn
+    - networking
+    kubeVersion: '>=1.10.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: onos-tost
+    urls:
+    - https://github.com/wafi981/onos.git/docs/onos-tost-0.1.43.tgz
+    version: 0.1.43
+  onos-umbrella:
+  - apiVersion: v2
+    appVersion: v1.1.0
+    created: "2023-02-16T07:15:12.739734742Z"
+    dependencies:
+    - condition: import.onos-topo.enabled
+      name: onos-topo
+      repository: file://../onos-topo
+      version: 1.5.0
+    - condition: import.onos-config.enabled
+      name: onos-config
+      repository: file://../onos-config
+      version: 1.8.9
+    - condition: import.onos-cli.enabled
+      name: onos-cli
+      repository: file://../onos-cli
+      version: 1.3.15
+    - condition: import.device-provisioner.enabled
+      name: device-provisioner
+      repository: file://../device-provisioner
+      version: 1.2.14
+    - condition: import.topo-discovery.enabled
+      name: topo-discovery
+      repository: file://../topo-discovery
+      version: 1.1.8
+    - condition: import.fabric-underlay.enabled
+      name: fabric-underlay
+      repository: file://../fabric-underlay
+      version: 0.1.0
+    description: Umbrella chart to deploy all µONOS
+    digest: daf1882d62cf9e7fe98eee631612e1fc0413b208737fb87b2db1c3651249dd35
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: onos-umbrella
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/onos-umbrella-1.3.23.tgz
+    version: 1.3.23
+  onos-ztp:
+  - apiVersion: v2
+    appVersion: v0.6.0
+    created: "2023-02-16T07:15:12.740076755Z"
+    description: ONOS Zero Touch Provisioning Subsystem
+    digest: ddbbdb0d57a2568ef1fe13c7928978edc6709200fde97d8cb443a67a23c3959d
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: onos-ztp
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/onos-ztp-0.0.5.tgz
+    version: 0.0.5
+  ran-simulator:
+  - apiVersion: v2
+    appVersion: v0.7.3
+    created: "2023-02-16T07:15:12.740767251Z"
+    description: ONOS RAN Simulator
+    digest: f3e216cbdd05a3a99a7fd81e0be4f0c721e8969857ebb52dfa9200b48bf66fe1
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    - ran
+    kubeVersion: '>=1.15.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: ran-simulator
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/ran-simulator-1.0.12.tgz
+    version: 1.0.12
+  scale-sim:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2023-02-16T07:15:12.743730235Z"
+    dependencies:
+    - name: fabric-sim
+      repository: file://../fabric-sim
+      version: 1.0.7
+    - name: discovery-agent
+      repository: file://../discovery-agent
+      version: 1.1.6
+    description: Umbrella chart to deploy fabric-sim and a required number of discovery-agent
+      instances
+    digest: 7f5c816b0f3139faa03a9571d01e741dbfade073ae36b79b22e3fa23ec516e4c
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: scale-sim
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/scale-sim-1.0.4.tgz
+    version: 1.0.4
+  sdcore-adapter:
+  - apiVersion: v2
+    appVersion: v0.1.10
+    created: "2023-02-16T07:15:12.744186788Z"
+    description: ONOS SD-Core Adapter
+    digest: f0a1e1a4a333c1d8fa5b4e17defff22ec56fd72812fefe92be6bf08db5927450
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: sdcore-adapter
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/sdcore-adapter-0.0.9.tgz
+    version: 0.0.9
+  stratum-simulator:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2023-02-16T07:15:12.744452477Z"
+    description: Stratum Simulator
+    digest: 32ace42c1c72e2942cd6f87b6730b29d3bc8200ba1a8fd3b18446c144a928fc9
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    kubeVersion: '>=1.15.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: stratum-simulator
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/stratum-simulator-0.0.3.tgz
+    version: 0.0.3
+  tlaplus-monitor:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2023-02-16T07:15:12.74478469Z"
+    description: TLA+ Conformance Monitor
+    digest: 3159fbcdbca3c307764f43ef46951213923f13973f73cadb65567d851c59fd2e
+    home: https://onosproject.org
+    keywords:
+    - monitoring
+    - verification
+    kubeVersion: '>=1.12.0'
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: tlaplus-monitor
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/tlaplus-monitor-0.0.2.tgz
+    version: 0.0.2
+  topo-discovery:
+  - apiVersion: v2
+    appVersion: v1.1.8
+    created: "2023-02-16T07:15:12.745202091Z"
+    description: ONOS Topology Discovery service
+    digest: 506e32af38d3db70c5595857a1b56c5e8d7b4e60119472d633d5023643e1b6d5
+    home: https://onosproject.org
+    keywords:
+    - onos
+    - sdn
+    maintainers:
+    - email: support@opennetworking.org
+      name: ONOS Support
+    name: topo-discovery
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/topo-discovery-1.1.8.tgz
+    version: 1.1.8
+  wcmp-app:
+  - apiVersion: v2
+    appVersion: v0.0.4
+    created: "2023-02-16T07:15:12.745746651Z"
+    description: wcmp-app Helm chart for Kubernetes
+    digest: 5d8b4c1433a818c9946d9a5c962b28315ce319bd9aa1d08101118f66321dc74b
+    name: wcmp-app
+    type: application
+    urls:
+    - https://github.com/wafi981/onos.git/docs/wcmp-app-0.1.2.tgz
+    version: 0.1.2
+generated: "2023-02-16T07:15:12.700912367Z"
