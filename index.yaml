@@ -9,7 +9,7 @@ entries:
     name: 389ds
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/389ds-0.1.1.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/389ds-0.1.1.tgz?raw=true
     version: 0.1.1
   config-model-aether:
   - apiVersion: v2
@@ -28,7 +28,7 @@ entries:
       name: ONOS Support
     name: config-model-aether
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-aether-2.1.1.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-aether-2.1.1.tgz?raw=true
     version: 2.1.1
   config-model-devicesim:
   - apiVersion: v2
@@ -47,7 +47,7 @@ entries:
       name: ONOS Support
     name: config-model-devicesim
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-devicesim-1.0.5.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-devicesim-1.0.5.tgz?raw=true
     version: 1.0.5
   config-model-devicesim-1-0-0:
   - apiVersion: v2
@@ -66,7 +66,7 @@ entries:
       name: ONOS Support
     name: config-model-devicesim-1-0-0
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-devicesim-1-0-0-1.0.6.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-devicesim-1-0-0-1.0.6.tgz?raw=true
     version: 1.0.6
   config-model-ietf:
   - apiVersion: v2
@@ -85,7 +85,7 @@ entries:
       name: ONOS Support
     name: config-model-ietf
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-ietf-1.0.1.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-ietf-1.0.1.tgz?raw=true
     version: 1.0.1
   config-model-openconfig:
   - apiVersion: v2
@@ -108,7 +108,7 @@ entries:
       name: ONOS Support
     name: config-model-openconfig
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-openconfig-1.0.1.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-openconfig-1.0.1.tgz?raw=true
     version: 1.0.1
   config-model-rbac:
   - apiVersion: v2
@@ -127,7 +127,7 @@ entries:
       name: ONOS Support
     name: config-model-rbac
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-rbac-1.0.3.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-rbac-1.0.3.tgz?raw=true
     version: 1.0.3
   config-model-stratum:
   - apiVersion: v2
@@ -146,7 +146,7 @@ entries:
       name: ONOS Support
     name: config-model-stratum
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-stratum-1.0.3.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-stratum-1.0.3.tgz?raw=true
     version: 1.0.3
   config-model-stratum-1-0-0:
   - apiVersion: v2
@@ -165,7 +165,7 @@ entries:
       name: ONOS Support
     name: config-model-stratum-1-0-0
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-stratum-1-0-0-1.0.8.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-stratum-1-0-0-1.0.8.tgz?raw=true
     version: 1.0.8
   config-model-testdevice:
   - apiVersion: v2
@@ -184,7 +184,7 @@ entries:
       name: ONOS Support
     name: config-model-testdevice
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-testdevice-2.0.4.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-testdevice-2.0.4.tgz?raw=true
     version: 2.0.4
   config-model-testdevice-1-0-0:
   - apiVersion: v2
@@ -203,7 +203,7 @@ entries:
       name: ONOS Support
     name: config-model-testdevice-1-0-0
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-testdevice-1-0-0-1.0.6.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-testdevice-1-0-0-1.0.6.tgz?raw=true
     version: 1.0.6
   config-model-testdevice-2-0-0:
   - apiVersion: v2
@@ -222,7 +222,7 @@ entries:
       name: ONOS Support
     name: config-model-testdevice-2-0-0
     urls:
-    - https://github.com/wafi981/onos.git/docs/config-model-testdevice-2-0-0-2.0.5.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/config-model-testdevice-2-0-0-2.0.5.tgz?raw=true
     version: 2.0.5
   device-provisioner:
   - apiVersion: v2
@@ -240,7 +240,7 @@ entries:
     name: device-provisioner
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/device-provisioner-1.2.14.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/device-provisioner-1.2.14.tgz?raw=true
     version: 1.2.14
   device-simulator:
   - apiVersion: v2
@@ -259,7 +259,7 @@ entries:
     name: device-simulator
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/device-simulator-0.0.7.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/device-simulator-0.0.7.tgz?raw=true
     version: 0.0.7
   dex-ldap-umbrella:
   - apiVersion: v2
@@ -290,7 +290,7 @@ entries:
     name: dex-ldap-umbrella
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/dex-ldap-umbrella-0.2.0.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/dex-ldap-umbrella-0.2.0.tgz?raw=true
     version: 0.2.0
   discovery-agent:
   - apiVersion: v2
@@ -309,7 +309,7 @@ entries:
     name: discovery-agent
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/discovery-agent-1.1.6.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/discovery-agent-1.1.6.tgz?raw=true
     version: 1.1.6
   fabric-sim:
   - apiVersion: v2
@@ -328,7 +328,7 @@ entries:
     name: fabric-sim
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/fabric-sim-1.0.7.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/fabric-sim-1.0.7.tgz?raw=true
     version: 1.0.7
   fabric-underlay:
   - apiVersion: v2
@@ -339,7 +339,7 @@ entries:
     name: fabric-underlay
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/fabric-underlay-0.1.0.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/fabric-underlay-0.1.0.tgz?raw=true
     version: 0.1.0
   keycloak-389-umbrella:
   - apiVersion: v2
@@ -370,7 +370,7 @@ entries:
     name: keycloak-389-umbrella
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/keycloak-389-umbrella-0.1.5.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/keycloak-389-umbrella-0.1.5.tgz?raw=true
     version: 0.1.5
   link-local-agent:
   - apiVersion: v2
@@ -389,7 +389,7 @@ entries:
     name: link-local-agent
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/link-local-agent-1.1.2.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/link-local-agent-1.1.2.tgz?raw=true
     version: 1.1.2
   onos-classic:
   - apiVersion: v1
@@ -413,7 +413,7 @@ entries:
       name: ONOS Support
     name: onos-classic
     urls:
-    - https://github.com/wafi981/onos.git/docs/onos-classic-0.1.31.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/onos-classic-0.1.31.tgz?raw=true
     version: 0.1.31
   onos-cli:
   - apiVersion: v2
@@ -432,7 +432,7 @@ entries:
     name: onos-cli
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/onos-cli-1.3.15.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/onos-cli-1.3.15.tgz?raw=true
     version: 1.3.15
   onos-config:
   - apiVersion: v2
@@ -450,7 +450,7 @@ entries:
       name: ONOS Support
     name: onos-config
     urls:
-    - https://github.com/wafi981/onos.git/docs/onos-config-1.8.9.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/onos-config-1.8.9.tgz?raw=true
     version: 1.8.9
   onos-gui:
   - apiVersion: v2
@@ -469,7 +469,7 @@ entries:
     name: onos-gui
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/onos-gui-1.0.9.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/onos-gui-1.0.9.tgz?raw=true
     version: 1.0.9
   onos-operator:
   - apiVersion: v2
@@ -487,7 +487,7 @@ entries:
       name: ONOS Support
     name: onos-operator
     urls:
-    - https://github.com/wafi981/onos.git/docs/onos-operator-0.5.6.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/onos-operator-0.5.6.tgz?raw=true
     version: 0.5.6
   onos-topo:
   - apiVersion: v2
@@ -506,7 +506,7 @@ entries:
     name: onos-topo
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/onos-topo-1.5.0.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/onos-topo-1.5.0.tgz?raw=true
     version: 1.5.0
   onos-tost:
   - apiVersion: v1
@@ -530,7 +530,7 @@ entries:
       name: ONOS Support
     name: onos-tost
     urls:
-    - https://github.com/wafi981/onos.git/docs/onos-tost-0.1.43.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/onos-tost-0.1.43.tgz?raw=true
     version: 0.1.43
   onos-umbrella:
   - apiVersion: v2
@@ -574,7 +574,7 @@ entries:
     name: onos-umbrella
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/onos-umbrella-1.3.23.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/onos-umbrella-1.3.23.tgz?raw=true
     version: 1.3.23
   onos-ztp:
   - apiVersion: v2
@@ -593,7 +593,7 @@ entries:
     name: onos-ztp
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/onos-ztp-0.0.5.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/onos-ztp-0.0.5.tgz?raw=true
     version: 0.0.5
   ran-simulator:
   - apiVersion: v2
@@ -613,7 +613,7 @@ entries:
     name: ran-simulator
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/ran-simulator-1.0.12.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/ran-simulator-1.0.12.tgz?raw=true
     version: 1.0.12
   scale-sim:
   - apiVersion: v2
@@ -640,7 +640,7 @@ entries:
     name: scale-sim
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/scale-sim-1.0.4.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/scale-sim-1.0.4.tgz?raw=true
     version: 1.0.4
   sdcore-adapter:
   - apiVersion: v2
@@ -659,7 +659,7 @@ entries:
     name: sdcore-adapter
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/sdcore-adapter-0.0.9.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/sdcore-adapter-0.0.9.tgz?raw=true
     version: 0.0.9
   stratum-simulator:
   - apiVersion: v2
@@ -678,7 +678,7 @@ entries:
     name: stratum-simulator
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/stratum-simulator-0.0.3.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/stratum-simulator-0.0.3.tgz?raw=true
     version: 0.0.3
   tlaplus-monitor:
   - apiVersion: v2
@@ -697,7 +697,7 @@ entries:
     name: tlaplus-monitor
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/tlaplus-monitor-0.0.2.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/tlaplus-monitor-0.0.2.tgz?raw=true
     version: 0.0.2
   topo-discovery:
   - apiVersion: v2
@@ -715,7 +715,7 @@ entries:
     name: topo-discovery
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/topo-discovery-1.1.8.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/topo-discovery-1.1.8.tgz?raw=true
     version: 1.1.8
   wcmp-app:
   - apiVersion: v2
@@ -726,6 +726,6 @@ entries:
     name: wcmp-app
     type: application
     urls:
-    - https://github.com/wafi981/onos.git/docs/wcmp-app-0.1.2.tgz
+    - https://github.com/wafi981/onos/blob/main/docs/wcmp-app-0.1.2.tgz?raw=true
     version: 0.1.2
 generated: "2023-02-16T07:15:12.700912367Z"
